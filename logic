@@ -1,0 +1,63 @@
+// valuecalc;
+
+// import { Outlet } from "react-router-dom";
+// import Header from "./components/Header";
+// import Sidebar from "./components/Sidebar";
+// import Footer from "./components/Footer";
+// import { useState } from "react";
+
+// export default function Layout() {
+//   const [open, setOpen] = useState(true);
+//   const toggleDrawer = () => setOpen(!open);
+//   return (
+//     <div className="flex flex-col bg-gray-50 relative min-h-screen">
+//       <Header toggleDrawer={toggleDrawer} />
+//       <div className="flex flex-1">
+//         <Sidebar open={open} />
+//         <div
+//           className={`transition-all duration-300 ${
+//             open ? "w-[calc(100%-35em)]" : "w-full"
+//           } ml-8 flex-1 p-2`}
+//         >
+//           <Outlet />
+//         </div>
+//       </div>
+//       {/* <Footer /> */}
+//     </div>
+//   );
+// }
+
+//   <div>
+//       <input
+//         type="text"
+//         className="flex-1"
+//         value={values.first}
+//         onChange={firstValueChange}
+//         placeholder="Enter a Value 1"
+//       />
+//     </div>
+//     <div>
+//       <input
+//         type="text"
+//         className="flex-1"
+//         value={values.second}
+//         onChange={secondValueChange}
+//         placeholder="Enter a Value"
+//       />
+//     </div>
+//     <div>
+//       <input
+//         type="text"
+//         value={values.third}
+//         onChange={thirdValueChange}
+//         placeholder="Enter a Value"
+//       />
+//     </div>
+//     <div>
+//       <input
+//         type="text"
+//         value={values.fourth}
+//         onChange={fourthValueChange}
+//         placeholder="Enter a Value"
+//       />
+//     </div>

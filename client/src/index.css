@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"] {
+  @apply w-full border border-gray-500 my-1 rounded-2xl;
+}
+input[type="number"] {
+  @apply w-full border border-gray-500 my-1 rounded-2xl;
+}
